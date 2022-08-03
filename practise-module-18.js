@@ -38,17 +38,152 @@
 // Arrays
 // Classes
 
-// ৭. জাভাস্ক্রিপ এ primitive and non primitive data types কি কি ? উদাহরণ হিসেবে বলো। 
+// ৭. জাভাস্ক্রিপ এ primitive and non primitive data types কি কি ? উদাহরণ হিসেবে বলো।
+// Ans:
+// Primitive Datatypes:
+// string
+// number
+// boolean
+// undefined
 
-// ৮. ভেরিয়েবল এর নাম কিভাবে কিভাবে ডিক্লেয়ার করতে হয়। কোন কোন জিনিস নাম এ লেখা যাবে না। অর্থাৎ Variable এর naming convention সম্পর্কে বলো। 
+// Non - Primitive Datatypes:
+// Strings
+// Arrays
+// Classes
 
-// ৯. দুইটা ভেরিয়েবল এর মধ্যে =, -, *, /, % কিভাবে করে? 
+// ৮. ভেরিয়েবল এর নাম কিভাবে কিভাবে ডিক্লেয়ার করতে হয়। কোন কোন জিনিস নাম এ লেখা যাবে না। অর্থাৎ Variable এর naming convention সম্পর্কে বলো।
 
-// ১০. শর্টহ্যান্ড গুলো জানতে হবে। বিশেষ করে +=, -=, *=, /= জানতে হবে। 
+// Ans:
+// ডিক্লেয়ার করা যাবেঃ
+// ১/ camelCase
+// ২/ PascalCase
+// ৩/ snake_case
+// ৪/ oneword
 
-// ১১..++এবং --এর কাজ কি ? এইটা কি জানো। 
+// ডিক্লেয়ার করা যাবে নাঃ
+// ১/ Word Gap দেওয়া যাবে না ।
+// ২/ "" দেওয়া যাবে না ।
+// ৩/ সামনে সংখ্যা দেওয়া যাবে না ।
+
+// ৯. দুইটা ভেরিয়েবল এর মধ্যে =, -, *, /, % কিভাবে করে?
+// 1/ =,
+// var num1 = 10;
+// var num2 = 10;
+// var equle = (num1 == num2);
+// console.log(equle);
+
+//3/ -,
+// var num1 = 15;
+// var num2 = 10;
+// var total = num1 - num2;
+// console.log(total);
+
+//4/ *,
+// var num1 = 15;
+// var num2 = 10;
+// var total = num1 * num2;
+// console.log(total);
+
+//5/ /,
+// var num1 = 15;
+// var num2 = 10;
+// var total = num1 / num2;
+// console.log(total);
+
+//6/ %,
+// var num1 = 22;
+// var num2 = 10;
+// var total = num1 % num2;
+// console.log(total);
+
+// ১০. শর্টহ্যান্ড গুলো জানতে হবে। বিশেষ করে +=, -=, *=, /= জানতে হবে।
+
+// 1/ +=;
+// var num1 = 10;
+// var total = num1 + 2;
+// console.log(total);
+
+// var num1 = 10;
+// num1 += 2;
+// console.log(num1);
+
+// 2/ -=;
+// var num1 = 10;
+// var total = num1 - 2;
+// console.log(total);
+
+// var num1 = 10;
+// num1 -= 2;
+// console.log(num1);
+
+
+// 3/ *=;
+// var num1 = 10;
+// var total = num1 * 2;
+// console.log(total);
+
+// var num1 = 10;
+// num1 *= 2;
+// console.log(num1);
+
+
+// 4/ /=;
+// var num1 = 10;
+// var total = num1 / 2;
+// console.log(total);
+
+// var num1 = 10;
+// num1 /= 2;
+// console.log(num1);
+
+
+// ১১..++এবং --এর কাজ কি ? এইটা কি জানো।
+
+// var num1 = 10;
+// var total = 10 + 1;
+// console.log(total);
+
+// var num1 = 10;
+// num1++;
+// console.log(num1);
+
+
+// var num1 = 10;
+// var total = 10 - 1;
+// console.log(total);
+
+// var num1 = 10;
+// num1--;
+// console.log(num1);
 
 // ১২ parseInt, parseFloat, toFixed এইগুলা কি করে ?
+
+// parseInt
+
+// var num1 = "10";
+// console.log(num1);
+// var changeString = parseInt(num1);
+// console.log(changeString);
+
+
+// parseFloat
+
+// var num1 = "10.25";
+// console.log(num1);
+// var changeString = parseFloat(num1);
+// console.log(changeString);
+
+
+// toFixed
+
+// var num1 = 10;
+// var num2 = 5.623;
+// var total = num1 + num2;
+// console.log(total);
+
+// var toFixedValue = total.toFixed(2);
+// console.log(toFixedValue);
+
 
 //     --------------
 
